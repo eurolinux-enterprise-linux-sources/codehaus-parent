@@ -1,6 +1,6 @@
 Name:           codehaus-parent
 Version:        4
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        Parent pom file for codehaus projects
 
 Group:          Development/Libraries
@@ -43,6 +43,9 @@ install -pm 644 codehaus-parent-%{version}.pom \
 %{_mavendepmapfragdir}/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4-5
+- Mass rebuild 2013-12-27
+
 * Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 4-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
